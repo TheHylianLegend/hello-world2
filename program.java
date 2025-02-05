@@ -8,6 +8,7 @@ public class program {
         System.out.println("Hi Bob!");
         System.out.println("Hi Charlie!");
         System.out.println("Hi Denise!");
+        System.out.println("Hi Esther!");
         System.out.println("Goodbye! :)");
     }
 }
