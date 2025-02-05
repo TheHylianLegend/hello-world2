@@ -9,5 +9,4 @@ public class program {
         System.out.println("Hi Charlie!");
         System.out.println("Goodbye! :)");
     }
-
 }
