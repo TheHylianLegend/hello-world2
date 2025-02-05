@@ -8,5 +8,4 @@ public class program {
         System.out.println("Hi Bob!");
         System.out.println("Goodbye! :)");
     }
-
 }
