@@ -1,14 +1,17 @@
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 
 public class program {
 
     public static void main(String[] args) {
+        LocalDate curDate = LocalDate.now();
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("MM-dd-yyyy");
+        String text = curDate.format(format);
+        
         System.out.println("Here ye : important announcement");
         System.out.println("Hello world!");
-        System.out.println("Hi Alice");
-        System.out.println("Hi Bob!");
-        System.out.println("Hi Charlie!");
-        System.out.println("Hi Denise!");
-        System.out.println("Hi Esther!");
+        System.out.println("Todays date is " + text);
         System.out.println("Goodbye! :)");
     }
 }
