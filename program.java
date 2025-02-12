@@ -18,7 +18,6 @@ public class program {
         System.out.println("Todays date is " + text);
         freeMemory = rt.freeMemory();
         System.out.println("Current free memory: " + freeMemory);
-        
         System.out.println("Goodbye! :)");
     }
 }
